@@ -1,201 +1,96 @@
 # Delos分布式自律组织协作网络
 
-<img src="https://ignite.apache.org/images/logo3.png" hspace="20" />
+　　未来企业的成功之道，是聚集一群聪明的创意精英，营造合适的氛围和支
+持环境，充分发挥他们的创造力，快速感知客户的需求，愉快的创造相应的产
+品和服务。 <br>
+　　从互联网到移动互联网，再到物联网，从云计算到大数据，未来商业的一
+个基本特征已经非常清楚，那就是基于机器学习的人工智能将成为未来商业的
+基础。
 
-[![Join the chat at https://gitter.im/apacheignite/ignite](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/apacheignite/ignite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# 特性
 
-<a href="http://ci.ignite.apache.org/viewType.html?buildTypeId=IgniteTests_IgniteBasic&branch_IgniteTests=%3Cdefault%3E"><img src="http://ci.ignite.apache.org/app/rest/builds/buildType:(id:IgniteTests_IgniteBasic)/statusIcon" /></a>
+*   多签名及多层签名：Delos事务操作是区块链数据写的唯一操作，其中包含动作，将各类动作权限分为高、中、低三类，针对不同的权限设置不同阈值。每个账户可以设置多个签名者和其权重，以控制账户的各类动作。
+*   跨链资产锚定：Delos将通过门限签名等密码学技术，控制其他区块链网络中或者链下的数字资产，实现其他数字资产的有效管控。
+*   交易事务性：由于区块链技术的特性，账户资产一旦转出则无法回滚，为了应对此类需求场景，Delos采用“事务+动作”的处理方式，一个事务可以包含多个动作，动作具有原子性，事务具有数据事务性。
+*   灵活资产发行：原生资产在网络启动时进行自动化的发行，发行资产可以映射为现实世界的物资、股票、数字化资产等等。
+*   分布式交易：Delos支持分布式交易模型，通过链下的集中交易与链上的分布式交易相结合，实现高效交易。
+*   精简数据存储分布式账本：组织全生命周期决策和执行过程必将有关联数据进行确权固化，由于区块链技术特性，当前区块链技术不适应大数据的快速存取，Delos 将构建针对结构化数据和小文件数据存储的分布式账本。
+*   数据限度访问：Delos网络提供存储分布式账本技术，可以存储结构化关键数据，针对数据可以进行限次、限额、限时和限用户等细粒度控制，在用户数据确权的基础上，充分保证数据的安全性。
+*   智能分析关键服务：基于链上不断增加的关联数据和原生神经网络结构数据，Delos支持链上数据和链下数据的智能分析。
 
-The [Apache Ignite][apache-homepage] In-Memory Data Fabric is a high-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets in real-time, orders of magnitude faster than possible with traditional disk-based or flash technologies.
-
+# 理念愿景
 <p align="center">
-    <a href="https://apacheignite.readme.io/docs">
-        <img src="https://ignite.apache.org/images/apache-ignite.png" />
-    </a>
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/idea.png" />
 </p>
+   
+　　Delos区块链基础协议的实施，初衷是将赋能型组织提升到区块链网络中，解决实体（人、组织和物）间的可信协作问题，构建高效和可信的分布式自律组织。Delos将与其他的优秀区块链技术实现一道，构筑更加高效、更加透明和更加规范的分布式自律组织协作网络，共同铸造链上可信生态世界。
 
-Apache Ignite In-Memory Data Fabric is designed to deliver uncompromised performance for a wide set of in-memory computing use cases from [high performance computing](https://ignite.apache.org/features.html), to the industry most advanced [data grid](https://ignite.apache.org/features.html), highly available [service grid](https://ignite.apache.org/features.html), and [streaming](https://ignite.apache.org/features.html).
-
-## Advanced Clustering
-
-Ignite nodes can automatically discover each other. This helps to scale the cluster when needed, without having to restart the whole cluster. Developers can also leverage from Ignite’s hybrid cloud support that allows establishing connection between private cloud and public clouds such as Amazon Web Services, providing them with best of both worlds.
-
+# 实施内容
 <p align="center">
-    <a href="https://apacheignite.readme.io/docs/cluster">
-        <img src="https://ignite.apache.org/images/advanced-clustering.png" />
-    </a>
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/tech.png" />
 </p>
+分布式自律组织重点在于组织自身的自律和组织间的协作及监测，Delos实施的内容主要包括三个方面：<br> 
+  
+*   搭建区块链价值交换网络；
+*   搭建精简数据存储分布式账本；
+*   搭建智能分析关键服务。
 
-## Data Grid (JCache)
+# 概念产品
 
-Ignite data grid is an in-memory distributed key-value store which can be viewed as a distributed partitioned hash map, with every cluster node owning a portion of the overall data. This way the more cluster nodes we add, the more data we can cache.
-
-Unlike other key-value stores, Ignite determines data locality using a pluggable hashing algorithm. Every client can determine which node a key belongs to by plugging it into a hashing function, without a need for any special mapping servers or name nodes.
-
-Ignite data grid supports local, replicated, and partitioned data sets and allows to freely cross query between these data sets using standard SQL syntax. Ignite supports standard SQL for querying in-memory data including support for distributed SQL joins.
-
+*   分布式自律组织管理器：<br>
 <p align="center">
-    <a href="https://apacheignite.readme.io/docs/data-grid">
-        <img src="https://ignite.apache.org/images/in-memory-data-grid.jpg" />
-    </a>
-</p>
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/product1.png" />
+</p><br>
+固化通用的组织协作模型，方便用户不做任何开发工作，快捷访问Delos网络进行业务操作。包括了组织管理、资产管理和分布式账本浏览器等通用操作。<br>
 
-Our data grid offers many features, some of which are:
 
-* Primary & Backup Copies.
-* Near Caches.
-* Cache queries and SQL queries.
-* Continuous Queries.
-* Transactions.
-* Off-Heap Memory.
-* Affinity Collocation.
-* Persistent Store.
-* Automatic Persistence.
-* Data Loading.
-* Eviction and Expiry Policies.
-* Data Rebalancing
-* Web Session Clustering.
-* Hibernate L2 Cache.
-* JDBC Driver.
-* Spring Caching.
-* Topology Validation.
-
-## Streaming & CEP
-
-Ignite streaming allows to process continuous never-ending streams of data in scalable and fault-tolerant fashion. The rates at which data can be injected into Ignite can be very high and easily exceed millions of events per second on a moderately sized cluster.
-
-Real-time data is ingested via data streamers. We offer streamers for JMS 1.1, Apache Kafka, MQTT, Twitter, Apache Flume and Apache Camel already, and we keep adding new ones every release.
-
+*   开放中间件：<br>
 <p align="center">
-    <a href="https://apacheignite.readme.io/docs/streaming--cep">
-        <img src="https://ignite.apache.org/images/data-streamers.png" />
-    </a>
-</p>
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/product2.png" />
+</p><br>
+Delos中的核心模块和概念产品都提供相应的API和开发SDK，支持集成到现在已有的应用场景。支持常用开发平台的开发工具包及单元测试用例；高可靠特性，支持事务报文重发和缓存；高性能特性，支持关联外部缓存及消息队列服务，支持事务排序机制。<br>
 
-The data can then be queried within sliding windows, if needed:
-
+*   桥接服务：<br>
 <p align="center">
-    <a href="https://apacheignite.readme.io/docs/streaming--cep">
-        <img src="https://ignite.apache.org/images/sliding-event-window.png" />
-    </a>
-</p>
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/product3.png" />
+</p><br>
+Delos支持与现有系统的集成能力：客户化标识映射服务，将区块链账户标识与客户化标识进行映射； 风控系统映射服务，Delos支持各个业务领域已有的风控规则进行对接； 审计系统映射服务，Delos支持为现有审计系统进行数据清洗。<br>
 
-## Compute Grid
-
-Distributed computations are performed in parallel fashion to gain high performance, low latency, and linear scalability. Ignite compute grid provides a set of simple APIs that allow users distribute computations and data processing across multiple computers in the cluster. Distributed parallel processing is based on the ability to take any computation and execute it on any set of cluster nodes and return the results back.
-
+*   网络监视器：<br>
 <p align="center">
-    <a href="https://apacheignite.readme.io/docs/compute-grid">
-        <img src="https://ignite.apache.org/images/in_memory_compute.png" />
-    </a>
-</p>
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/product4.png" />
+</p><br>
+对网络运行情况监视，监控网络当前资产、节点、账本情况的图形化监视器；数据统计，支持当前网络中各个维度的数据统计，针对规则进行自动化风险提醒。
 
-We support these features, amongst others:
+# 应用场景
 
-* Distributed Closure Execution.
-* MapReduce & ForkJoin Processing.
-* Clustered Executor Service.
-* Collocation of Compute and Data.
-* Load Balancing.
-* Fault Tolerance.
-* Job State Checkpointing.
-* Job Scheduling.
-
-## Service Grid
-
-Service Grid allows for deployments of arbitrary user-defined services on the cluster. You can implement and deploy any service, such as custom counters, ID generators, hierarchical maps, etc.
-
-Ignite allows you to control how many instances of your service should be deployed on each cluster node and will automatically ensure proper deployment and fault tolerance of all the services.
-
+*   NGO<br>
 <p align="center">
-    <a href="https://apacheignite.readme.io/docs/service-grid">
-        <img src="https://ignite.apache.org/images/ignite_service.png" vspace="15"/>
-    </a>
-</p>
-
-## Ignite File System
-
-Ignite File System (IGFS) is an in-memory file system allowing work with files and directories over existing cache infrastructure. IGFS can either work as purely in-memory file system, or delegate to another file system (e.g. various Hadoop file system implementations) acting as a caching layer.
-
-In addition, IGFS provides API to execute map-reduce tasks over file system data.
-
-## Distributed Data Structures
-
-Ignite supports complex data structures in a distributed fashion: 
-
-* Queues and sets: ordinary, bounded, collocated, non-collocated.
-* Atomic types: `AtomicLong` and `AtomicReference`.
-* `CountDownLatch`.
-* ID Generators.
-
-## Distributed Messaging
-
-Distributed messaging allows for topic based cluster-wide communication between all nodes. Messages with a specified message topic can be distributed to all or sub-group of nodes that have subscribed to that topic.
-
-Ignite messaging is based on publish-subscribe paradigm where publishers and subscribers are connected together by a common topic. When one of the nodes sends a message A for topic T, it is published on all nodes that have subscribed to T.
-
-## Distributed Events
-
-Distributed events allow applications to receive notifications when a variety of events occur in the distributed grid environment. You can automatically get notified for task executions, read, write or query operations occurring on local or remote nodes within the cluster.
-
-## Hadoop Accelerator
-
-Our Hadoop Accelerator provides a set of components allowing for in-memory Hadoop job execution and file system operations.
-
-### MapReduce
-
-An alternate high-performant implementation of job tracker which replaces standard Hadoop MapReduce. Use it to boost your Hadoop MapReduce job execution performance.
-
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene1.png" />
+</p><br>
+　　NGO涉及的领域包括环境保护、社会救济、医疗卫生、教育、文化等。此类组织多为致力于社会公益事业，但这些组织本身的资金能力有限，往往需要各种社会力量在财力与道义上的积极支持和参与。通过在Delos网络中实现NGO的信息披露可以很好地解决社会组织存在的一些问题，如“资金流向不透明，数据不公开，风险把控可能存在人为破坏因素”。
+  
+  
+*   智能投顾<br>
 <p align="center">
-    <a href="https://apacheignite.readme.io/docs/map-reduce">
-        <img src="https://ignite.apache.org/images/hadoop-mapreduce.png" vspace="15" height="400"/>
-    </a>
-</p>
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene2.png" />
+</p><br>
+　　基于长期的市场实践以及技术积累，尝试结合智能投顾的专业投资能力，和区块链技术的去中心化、去中介化、不可篡改、加密安全性等特性，打造数字货币投资领域的智能投顾平台，希望能够推进市场发展中存在问题的解决。
 
-### IGFS - In-Memory File System
+*   中小企业<br>
+ <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene3.png" />
+</p><br>
+通过在Delos网络中实现中小企业的信息披露，首先，对于中小企业可以规范管理过程；其次，对于投资方可以随时进行尽调（数据限度访问）；最后，对于企业产品用户来说更加清晰产品质量保证过程。通过Delos网络可以实现权益确权、权益转让、投资和融资等各类精细化场景。
 
-A Hadoop-compliant IGFS File System implementation over which Hadoop can run over in plug-n-play fashion and significantly reduce I/O and improve both, latency and throughput.
+*   精准扶贫<br>
+ <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene4.png" />
+</p><br>
+利用Delos平台全程记录、顺序时间戳、不可篡改、可追溯、防伪造等特性，首先可以将扶贫模式由“自顶向下”转变为“自底向上”，明确贫困户，量化贫困的资产；其次，明晰扶贫重点，精细化扶贫，资产收益转化，提高贫困户自身造血功能；最后，贫困户脱贫前，政府等部门就可以精准支持，脱贫后，根据积累的信用，可以获得信用贷款支持，持续扩大收益规模。
 
-<p align="center">
-    <a href="https://apacheignite.readme.io/docs/file-system">
-        <img src="https://ignite.apache.org/images/ignite_filesystem.png" height="300" vspace="15"/>
-    </a>
-</p>
 
-### Secondary File System
 
-An implementation of `SecondaryFileSystem`. This implementation can be injected into existing IGFS allowing for read-through and write-through behavior over any other Hadoop FileSystem implementation (e.g. HDFS). Use it if you want your IGFS to become an in-memory caching layer over disk-based HDFS or any other Hadoop-compliant file system.
 
-### Supported Hadoop distributions
 
-* Apache Hadoop.
-* Cloudera CDH.
-* Hortonworks HDP.
-* Apache BigTop.
-
-## Spark Shared RDDs
-
-Apache Ignite provides an implementation of Spark RDD abstraction which allows to easily share state in memory across Spark jobs. The main difference between native Spark `RDD` and `IgniteRDD` is that Ignite RDD provides a shared in-memory view on data across different Spark jobs, workers, or applications, while native Spark RDD cannot be seen by other Spark jobs or applications.
-
-<p align="center">
-    <a href="https://apacheignite.readme.io/docs/shared-rdd">
-        <img src="https://ignite.apache.org/images/spark-ignite-rdd.png" height="400" vspace="15" />
-    </a>
-</p>
-
-## Ignite On Other Platforms
-
-<a href="modules/platforms/dotnet">Ignite.NET</a>
-
-<a href="modules/platforms/cpp">Ignite C++</a>
-
-## Getting Started
-
-For information on how to get started with Apache Ignite please visit: [Getting Started][getting-started].
-
-## Full Documentation
-
-You can find the full Apache Ignite documentation here: [Full documentation][docs].
 
 [apache-homepage]: https://ignite.apache.org/
 [getting-started]: https://apacheignite.readme.io/docs/getting-started
