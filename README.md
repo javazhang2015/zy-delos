@@ -96,5 +96,6 @@ Delos支持与现有系统的集成能力：客户化标识映射服务，将区
 
 
 # 官方网站
-[Delos-homepage]: https://www.delos.link/
+
+[Delos]: https://www.delos.link/
 
