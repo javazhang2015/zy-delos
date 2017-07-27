@@ -60,7 +60,7 @@ Delos支持与现有系统的集成能力：客户化标识映射服务，将区
 <p align="center">
     <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/product4.png" />
 </p><br>
-对网络运行情况监视，监控网络当前资产、节点、账本情况的图形化监视器；数据统计，支持当前网络中各个维度的数据统计，针对规则进行自动化风险提醒。
+对网络运行情况监视，监控网络当前资产、节点、账本情况的图形化监视器；数据统计，支持当前网络中各个维度的数据统计，针对规则进行自动化风险提醒。<br>
 
 # 应用场景
 
@@ -68,30 +68,33 @@ Delos支持与现有系统的集成能力：客户化标识映射服务，将区
 <p align="center">
     <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene1.png" />
 </p><br>
-　　NGO涉及的领域包括环境保护、社会救济、医疗卫生、教育、文化等。此类组织多为致力于社会公益事业，但这些组织本身的资金能力有限，往往需要各种社会力量在财力与道义上的积极支持和参与。通过在Delos网络中实现NGO的信息披露可以很好地解决社会组织存在的一些问题，如“资金流向不透明，数据不公开，风险把控可能存在人为破坏因素”。
-  
-  
+　　NGO涉及的领域包括环境保护、社会救济、医疗卫生、教育、文化等。此类组织多为致力于社会公益事业，但这些组织本身的资金能力有限，往往需要各种社会力量在财力与道义上的积极支持和参与。通过在Delos网络中实现NGO的信息披露可以很好地解决社会组织存在的一些问题，如“资金流向不透明，数据不公开，风险把控可能存在人为破坏因素”。<br><br>
+ 
 *   智能投顾<br>
 <p align="center">
     <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene2.png" />
 </p><br>
-　　基于长期的市场实践以及技术积累，尝试结合智能投顾的专业投资能力，和区块链技术的去中心化、去中介化、不可篡改、加密安全性等特性，打造数字货币投资领域的智能投顾平台，希望能够推进市场发展中存在问题的解决。
+　　基于长期的市场实践以及技术积累，尝试结合智能投顾的专业投资能力，和区块链技术的去中心化、去中介化、不可篡改、加密安全性等特性，打造数字货币投资领域的智能投顾平台，希望能够推进市场发展中存在问题的解决。<br><br>
 
 *   中小企业<br>
- <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene3.png" />
+<p align="center">
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene3.pn" />
 </p><br>
-通过在Delos网络中实现中小企业的信息披露，首先，对于中小企业可以规范管理过程；其次，对于投资方可以随时进行尽调（数据限度访问）；最后，对于企业产品用户来说更加清晰产品质量保证过程。通过Delos网络可以实现权益确权、权益转让、投资和融资等各类精细化场景。
+通过在Delos网络中实现中小企业的信息披露，首先，对于中小企业可以规范管理过程；其次，对于投资方可以随时进行尽调（数据限度访问）；最后，对于企业产品用户来说更加清晰产品质量保证过程。通过Delos网络可以实现权益确权、权益转让、投资和融资等各类精细化场景。<br><br>
 
 *   精准扶贫<br>
- <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene4.png" />
+<p align="center">
+    <img src="https://cdn-x-w.momentcdn.net/597850b014f35d42420000be/0.0.0.0.0/www.delos.link/themes/lelian/Public/assets/images/scene4.png" />
 </p><br>
-利用Delos平台全程记录、顺序时间戳、不可篡改、可追溯、防伪造等特性，首先可以将扶贫模式由“自顶向下”转变为“自底向上”，明确贫困户，量化贫困的资产；其次，明晰扶贫重点，精细化扶贫，资产收益转化，提高贫困户自身造血功能；最后，贫困户脱贫前，政府等部门就可以精准支持，脱贫后，根据积累的信用，可以获得信用贷款支持，持续扩大收益规模。
+利用Delos平台全程记录、顺序时间戳、不可篡改、可追溯、防伪造等特性，首先可以将扶贫模式由“自顶向下”转变为“自底向上”，明确贫困户，量化贫困的资产；其次，明晰扶贫重点，精细化扶贫，资产收益转化，提高贫困户自身造血功能；最后，贫困户脱贫前，政府等部门就可以精准支持，脱贫后，根据积累的信用，可以获得信用贷款支持，持续扩大收益规模。<br>
 
 
+# 技术架构
 
 
+# 账户模型
 
 
-[apache-homepage]: https://ignite.apache.org/
-[getting-started]: https://apacheignite.readme.io/docs/getting-started
-[docs]: https://apacheignite.readme.io/docs
+# 官方网站
+[Delos-homepage]: https://www.delos.link/
+
